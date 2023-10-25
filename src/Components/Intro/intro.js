@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './intro.css';
-import bgv from '../../Assets/bgv.mp4'; 
+import bgv from './../Assets/bgv.mp4'; 
 // import bg from '../../assets/image.png'
 // import { Link } from 'react-scroll';
 
