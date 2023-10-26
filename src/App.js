@@ -5,12 +5,13 @@ import Skills from "./Components/Skills/skills";
 // import Contact from "./components/Contact/contact";
 // import Footer from "./components/Footer/footer";
 // import WeatherApp from "./components/Weatherapp/WeatherApp";
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
      
       
@@ -26,6 +27,7 @@ function App() {
       {/* <Footer />   */}
      
     </div>
+    </BrowserRouter>
   );
 }
 
