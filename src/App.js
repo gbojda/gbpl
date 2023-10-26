@@ -5,29 +5,24 @@ import Skills from "./Components/Skills/skills";
 // import Contact from "./components/Contact/contact";
 // import Footer from "./components/Footer/footer";
 // import WeatherApp from "./components/Weatherapp/WeatherApp";
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import { Routes, Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
     <div className="App">
-     
-      
     <Navbar/>
     <Routes>
-        
-        <Route path='/' element={<Intro/>} />
+        <Route exact path='/' element={<Intro/>} />
         <Route path='/Skills' element={<Skills/>} />
         {/* <Route path='/WeatherApp' element={<WeatherApp/>} /> */}
-
         {/* <Route path='/Contact' element={<Contact/>} /> */}
       </Routes>
       {/* <Footer />   */}
-     
     </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
