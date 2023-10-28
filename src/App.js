@@ -1,7 +1,6 @@
 import Navbar from "./Components/Navbar/navbar";
 import Intro from "./Components/Intro/intro";
 import Skills from "./Components/Skills/skills";
-// import Works from "./components/Works/works";
 import Contact from "./Components/Contact/contact";
 import Footer from "./Components/Footer/footer";
 import WeatherApp from "./Components/Weatherapp/WeatherApp";
@@ -15,7 +14,7 @@ function App() {
     <div className="App">
     <Navbar/>
     <Routes>
-        <Route exact path='/' element={<Intro/>} />
+        <Route path='/' element={<Intro/>} />
         <Route path='/Skills' element={<Skills/>} />
         <Route path='/WeatherApp' element={<WeatherApp/>} />
         <Route path='/Contact' element={<Contact/>} />
