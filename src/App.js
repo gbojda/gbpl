@@ -3,9 +3,9 @@ import Intro from "./Components/Intro/intro";
 import Skills from "./Components/Skills/skills";
 // import Works from "./components/Works/works";
 import Contact from "./Components/Contact/contact";
-// import Footer from "./components/Footer/footer";
+import Footer from "./Components/Footer/footer";
 import WeatherApp from "./Components/Weatherapp/WeatherApp";
-import { Routes, Route, BrowserRouter as Router,  } from 'react-router-dom'
+import { Routes, Route, BrowserRouter as Router  } from 'react-router-dom'
 
 
 
@@ -19,8 +19,8 @@ function App() {
         <Route path='/Skills' element={<Skills/>} />
         <Route path='/WeatherApp' element={<WeatherApp/>} />
         <Route path='/Contact' element={<Contact/>} />
-      </Routes>
-      {/* <Footer />   */}
+    </Routes>
+    <Footer />  
     </div>
     </Router>
   );
