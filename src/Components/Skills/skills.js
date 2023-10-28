@@ -13,7 +13,7 @@ const Skills = () => {
   return (
 
     <section id='skills'>
-        <span className="skillTitle">What i do</span>
+        <span className="skillTitle">What i do i do not</span>
         <span className="skillDesc">I am constantly developing, gaining skills and experience every day to meet expectations. <br /> of design and a keen eye for detail. I am proficient in HTML, CSS and JavaScript.</span>
         <div className="skillBars">
             <div className="skillBar">
