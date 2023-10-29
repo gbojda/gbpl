@@ -1,21 +1,50 @@
 .navbar {
-     box-sizing: border-box;
-    background:transparent;
-    height: 0rem;
-    /* width: 90%; */
-    margin-left: 0rem;
-     margin-top: 2rem;
-   padding: 1rem; 
-    display:flex;
-    gap: 1rem;
+    /* height: 5rem; */
+    width: 100 vw;
+    margin: 0 auto;
+    /* padding: 1rem 2rem; */
+    display: flex;
     align-items: center;
     justify-content: space-between;
-     position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+
+
+    /* background: transparent; */
+    /* height: 0rem; */
+    /* width: auto; */
+    /* margin: 0 auto; */
+    /* margin-top: 2rem; */
+    /* padding: 1rem 2rem; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; */
+    /* top: 0; */
+    /* z-index: 3; */
     
-   z-index: 3; 
-    list-style: none;  
-    position: absolute;
-    color: rgb(13, 158, 13);
+    
+
+    /* poniżej było - powyżej testy */
+      /* box-sizing: border-box; */
+   /* background:transparent; */
+    /* height: 0rem;  */
+     /* margin-left: 0rem;  */
+     /* margin-top: 2rem; */
+   /* padding: 1rem;  */
+    /* display:flex; */
+    /* gap: 1rem;  */
+     /* align-items: center;
+     justify-content: space-between;
+      position:fixed; */
+   /* z-index: 3;  */
+    /* list-style: none;   */
+    /* position: absolute;  */
+    /* color: rgb(13, 158, 13); */
+    /* powyżej było poniżej kupa */
+      /* width: 90%; */
     /*p;
     top: 4rem;
     right: 2rem;
@@ -44,9 +73,9 @@
     width: 4rem;
 }
 .desktopMenuListItem {
-    color: white;
+    color: rgb(16, 124, 25);
     /* width: 80vw; */
-    background-color: rgba(0, 0, 0, 0.364);
+    background-color: rgba(255, 255, 255, 0.851);
     margin: 2rem;
     margin-top: 10px;
     list-style: none;
@@ -94,6 +123,8 @@
     /* display: none; */
     object-fit: cover;
     height: 1.8rem;
+    margin-right: 2rem;
+    position:sticky
 }
 .navMenu {
     position: absolute;
@@ -107,11 +138,12 @@
     min-width: 15rem;
     background: transparent;
     border-radius: 1rem;
+    background-color: black;
     
 }
 
 .navmenuitem {
-    color: rgb(255, 255, 255);
+    color: transparent;
 }
 
 .navmenuitem:hover {
@@ -121,7 +153,7 @@
 }
 
 .listItem {
-    color: white;
+    color: transparent;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background: transparent;
@@ -143,7 +175,7 @@
     padding: 0.5rem;
     height: fit-content;
     min-width: 15rem;
-    background: white;
+    background: transparent;
     border-radius: 1rem;
 }
 

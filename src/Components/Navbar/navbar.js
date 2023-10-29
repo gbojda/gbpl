@@ -35,8 +35,7 @@ const Navbar = () => {
         </div>
 
         <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
-
-        <div className="navMenu"style={{display: showMenu? 'flex':'none'}}>
+        <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
           
             <a href='/' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >Home</a>
           
