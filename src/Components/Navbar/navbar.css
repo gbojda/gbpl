@@ -1,97 +1,68 @@
 .navbar {
-    /* height: 5rem; */
-    width: 100 vw;
+    height: 2.5rem;
+    width: 100vw;
     margin: 0 auto;
-    /* padding: 1rem 2rem; */
+    display: flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
-
-
-
-    /* background: transparent; */
-    /* height: 0rem; */
-    /* width: auto; */
-    /* margin: 0 auto; */
-    /* margin-top: 2rem; */
-    /* padding: 1rem 2rem; */
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky; */
-    /* top: 0; */
-    /* z-index: 3; */
-    
-    
-
-    /* poniżej było - powyżej testy */
-      /* box-sizing: border-box; */
-   /* background:transparent; */
-    /* height: 0rem;  */
-     /* margin-left: 0rem;  */
-     /* margin-top: 2rem; */
-   /* padding: 1rem;  */
-    /* display:flex; */
-    /* gap: 1rem;  */
-     /* align-items: center;
-     justify-content: space-between;
-      position:fixed; */
-   /* z-index: 3;  */
-    /* list-style: none;   */
-    /* position: absolute;  */
-    /* color: rgb(13, 158, 13); */
-    /* powyżej było poniżej kupa */
-      /* width: 90%; */
-    /*p;
-    top: 4rem;
-    right: 2rem;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
-    height: fit-content;
-    min-width: 15rem;
-    background: transparent;
-    border-radius: 1rem;*/
-
+}
+.mobMenu {
+    /* position: absolute; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    height: 2rem;
+    /* display: none; */
+    object-fit: cover;
+    height: 1.8rem;
+    margin-right: 2rem;
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.431);
 }
 
-.desktopMenu ul {
+.desktopMenu {
+    align-items: center;
+    width: 100vw;
+    height: 3rem;
+    margin-bottom: 1rem;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.625);
+}
+
+.desktopMenuListItem {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: black;
+    width: 17vw;
+    margin-top: 10px;
+    list-style: none; 
+    cursor: pointer;
+    display: flex;
+    gap: 3rem;   
+}
+
+.desktopMenu ul {   
     list-style-type: none;
     display: flex;
     background: transparent;
-    color: rgb(16, 124, 25);
+    color: black;
     border-radius: 0cm;
 }
 
-.logo {
+.desktopMenuListItem:hover { 
+    color: black;
+    padding-bottom: 0.2rem;
+    border-bottom: 4px solid  black;
+ } 
+
+/* .logo {
     object-fit: cover;
     height: 3rem;
     width: 4rem;
-}
-.desktopMenuListItem {
-    color: rgb(16, 124, 25);
-    /* width: 80vw; */
-    background-color: rgba(255, 255, 255, 0.851);
-    margin: 2rem;
-    margin-top: 10px;
-    list-style: none;
-    
-        /* cursor: pointer; */
-    /* display: flex; */
-    gap: 3rem;
-    
-    
-    
-}
-.desktopMenuListItem:hover {
-    color:  rgb(0, 255, 81);;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid  rgb(0, 255, 81);
-}
+} */
 
 .desktopMenuBtn {
     background: transparent;
@@ -102,6 +73,7 @@
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+    
 }
 
 .desktopMenuImg {
@@ -109,7 +81,6 @@
     height: 1rem;
     width: 1rem;
     margin: 1rem;
-
 }
 
 .active {
@@ -118,39 +89,31 @@
     /* border-bottom: 5px solid yellow; */
 }
 
-
-.mobMenu{
-    /* display: none; */
-    object-fit: cover;
-    height: 1.8rem;
-    margin-right: 2rem;
-    position:sticky
-}
 .navMenu {
     position: absolute;
-    top: 4rem;
-    right: 2rem;
-    z-index: 2;
-    display: flex;
+    top: 2.5rem;
+    width: 12rem;
+    background-color:rgba(255, 255, 255, 0.705);
+    /* max-width: 20rem; */
+    /* right: 2rem; */
+    /* z-index: 2; */
+    /* display: flex; */
     flex-direction: column;
-    padding: 0.5rem;
-    height: fit-content;
-    min-width: 15rem;
-    background: transparent;
-    border-radius: 1rem;
-    background-color: black;
+    /* padding: 0.5rem; */
+    height: fit-content; 
+    /* min-width: 15rem; */
     
+    /* border-radius: 1rem; */
+    /* background-color: rgba(255, 255, 255, 0.896); */
+    /* background: transparent;  */
+    border-radius: 1rem; 
 }
 
 .navmenuitem {
     color: transparent;
 }
 
-.navmenuitem:hover {
-    color: rgb(0, 255, 81);
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid(0, 255, 81);
-}
+
 
 .listItem {
     color: transparent;
@@ -160,25 +123,30 @@
 }
 
 .mobMenu{
-    /* display: none; */
-    object-fit: cover;
-    height: 1.5 rem;
-     position:relative
-}
-.navMenu {
-    position: absolute;
-    top: 4rem;
-    right: 2rem;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
-    height: fit-content;
-    min-width: 15rem;
-    background: transparent;
-    border-radius: 1rem;
+    margin-top: 2rem;
+     object-fit:fill;
+    height: 1.5rem;
+   
 }
 
+.mobMenuListItem {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    color: black;
+    width: 80vw;
+    margin-top: 10px;
+    list-style: none; 
+    cursor: pointer;
+    display: flex;
+    gap: 3rem; 
+}
+
+.mobMenuListItem:hover {
+    color:rgba(0, 0, 0, 0.543);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid(0, 255, 81);
+    
+}
 .listItem {
     color: white;
     padding: 0.5rem 3rem;
@@ -186,13 +154,30 @@
     background: white(154, 10, 10);
 }
 
+
+
 @media screen and (max-width: 720px) {
     .mobMenu {
-        display: flex;
+        display: relative;
     }
 
     .desktopMenu {
         display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 721px) {
+    .mobMenu {
+        display: none;
+    }
+
+    .desktopMenu {
+        display: flex;
     }
 
     .desktopMenuBtn {
