@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../Assets/bgimage.jpg');
+    background-image: url('../../Assets/bgimage.jpg');
 }
 
 .contactPageTitle {

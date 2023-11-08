@@ -1,10 +1,10 @@
 import React from 'react';
 import './skills.css';
-import git  from './../Assets/git.png'
-import html from '../Assets/html.png'
-import jslogo from './../Assets/jslogo.png'
-import css from './../Assets/CSS3_logo_and_wordmark.svg.png';
-import react from './../Assets/ricon.png';
+import git  from '../../Assets/git.png'
+import html from '../../Assets/html.png'
+import jslogo from '../../Assets/jslogo.png'
+import css from '../../Assets/CSS3_logo_and_wordmark.svg.png';
+import react from '../../Assets/ricon.png';
 
 
 
