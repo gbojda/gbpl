@@ -22,6 +22,7 @@ const Navbar = () => {
           
           
             <a href='/WeatherApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >WeatherApp</a>
+            <a href='/QuizApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >QuizApp</a>
           
           
             <a href='/Contact' className="desktopMenuListItem"  spy={true} smooth={true} offset={-100} duration={500} >Contact</a>
@@ -47,6 +48,7 @@ const Navbar = () => {
           
           
             <a href='/WeatherApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >WeatherApp</a>
+            <a href='/QuizApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >QuizApp</a>
           
           
             <a href='/Contact' className="desktopMenuListItem"  spy={true} smooth={true} offset={-100} duration={500} >Contact</a>
