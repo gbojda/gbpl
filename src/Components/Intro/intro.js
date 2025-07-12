@@ -10,7 +10,7 @@ import bgv from '../../Assets/bgv.mp4';
 const Intro = () => {
   
 const [iksde] = useTypewriter({
-  words:[' Creative ', ' Patience', ' Effective ', ' Determined', ' Communicative' ],
+  words:[' Drogą ', ' Prawdą', ' Życiem ' ],
   loop: {},
   typeSpeed: 200,
   deleteSpeed: 100,
@@ -22,7 +22,7 @@ const [iksde] = useTypewriter({
         <div className="content">
 
           <h1 style={{margin: '50px', color: 'white'}}>
-            I'm  
+            Bóg jest 
             <span style={{fontWeight: 'bold', color: 'white'}}>
               {iksde}
             </span>

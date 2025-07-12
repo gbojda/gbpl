@@ -15,17 +15,17 @@ const Navbar = () => {
             <a href='/' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >Home</a>
           
           
-            <a href='/skills' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >Skills</a>
+            <a href='/skills' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >O nas</a>
           
           
             {/* <a href='/works'  className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >Works</a> */}
           
           
-            <a href='/WeatherApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >WeatherApp</a>
-            <a href='/QuizApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >QuizApp</a>
+           
+            {/* <a href='/QuizApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >QuizApp</a> */}
           
           
-            <a href='/Contact' className="desktopMenuListItem"  spy={true} smooth={true} offset={-100} duration={500} >Contact</a>
+            <a href='/Contact' className="desktopMenuListItem"  spy={true} smooth={true} offset={-100} duration={500} >Kontakt</a>
           
 
 
@@ -47,7 +47,7 @@ const Navbar = () => {
             {/* <a href='/works'  className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >Works</a> */}
           
           
-            <a href='/WeatherApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >WeatherApp</a>
+            
             <a href='/QuizApp' className="desktopMenuListItem" spy={true} smooth={true} offset={-100} duration={500} >QuizApp</a>
           
           

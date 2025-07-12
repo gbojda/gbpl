@@ -22,16 +22,17 @@ const Contact = () => {
   return (
     <section id="contactPage">
         <div id="clients">
-            <h1 className="contactPageTitle">Cooperation</h1>
+            <h1 className="contactPageTitle">Kontakt</h1>
             <p className="clientDesc">
-            If you are interested in cooperation, please contact me. < br/>
-            Just fill in the fields below and send the message.
+            Masz pytania, chcesz się podzielić świadectwem lub potrzebujesz modlitwy?
+ < br/>
+ Napisz do nas – jesteśmy tu dla Ciebie!
             </p>
 
-            <p className="linkedintitle">
+            {/* <p className="linkedintitle">
             You can also contact me via the LinkedIn platform. <br />
             The link is below.
-            </p>
+            </p> */}
             
         {/* <div className="clientImgs">
             <img src={Walmart} alt="Client" className="clientImg" />
@@ -45,18 +46,18 @@ const Contact = () => {
           {/* <h1 className="contactPageTitle">Contact Me</h1>
           <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span> */}
           <form className="contactForm" ref={form} onSubmit={sendEmail}>
-            <input type="text" className="name" placeholder="Your Name" name='your_name'/>
-            <input type="email" className="email" placeholder="Your Email" name='your_email'/>
-            <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
+            <input type="text" className="name" placeholder="Twoje imię" name='Twoje imię'/>
+            <input type="email" className="email" placeholder="Twój email" name='Twój_email'/>
+            <textarea className="msg" name="message" rows="5" placeholder="Twoja wiadomość"></textarea>
             <button type='submit' value='Send' className="submitBtn">Submit</button>
             <div className="links">
            
-             <a href="https://www.linkedin.com/in/grzegorzbojda/" target="_blank">
+             {/* <a href="https://www.linkedin.com/in/grzegorzbojda/" target="_blank">
               <img src={linkedin} alt="GitHub" className="link" a href="https://www.w3schools.com/" />
               </a>
               <a href="https://github.com/gbojda" target="_blank">
               <img src={icona} alt="GitHub" className="link" />
-              </a>
+              </a> */}
             </div>
           </form>
        </div>

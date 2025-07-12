@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     
       <span className='span1'>
-        Copyright: 2023 Grzegorz Bojda. All rights reserved
+        Copyright: 2025 Grzegorz Bojda. All rights reserved
         </span>
     
   )
